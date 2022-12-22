@@ -293,7 +293,7 @@ docker run --name rzhevsky_docker --rm -it rzhevsky_image
 ### [0.25] Create an extra Dockerfile that starts from a conda base image and builds everything from your conda environment file.
 Для этого пункта пришлось переустановить conda и все пакеты в новое окружение на wsl (Ubuntu) и сформировать из полученного окружения новый yml-файл, так как yml окружения сформированного на Windows не разворачивался в докере.\
 
-yml полученный на wsl:
+RzhevskyEnv.yml полученный на wsl:
 ```yml
 name: rzhevsky_env
 channels:
